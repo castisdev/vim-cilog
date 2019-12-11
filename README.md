@@ -18,5 +18,5 @@ $ ./install.sh
 
 ## Uninstall
 ```
-$ rm -rf ~/.vim/ftdetect/cilog.vim
+$ rm -f ~/.vim/ftdetect/cilog.vim
 ```
