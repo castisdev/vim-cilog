@@ -9,7 +9,7 @@ endif
 
 syn match cilog_error	'\(.*,Error,.*\|.*,Fail,.*\|.*,Exception,.*\|.*,Critical,.*\)'
 syn match cilog_warning	'.*,Warning,.*'
-syn match cilog_info	'\(,Information,\|,Debug,\)'
+syn match cilog_info	'\(,Success,\|,Information,\|,Report,\|,Debug,\)'
 syn match cilog_date	'\d\{4}-\d\d-\d\d'
 syn match cilog_time	'\d\d:\d\d:\d\d\.\d\+'
 
